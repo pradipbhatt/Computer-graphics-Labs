@@ -50,7 +50,6 @@ private:
 
 int main() 
 {
-    system("cls");
     int gd = DETECT, gm;
     initgraph(&gd, &gm, NULL);
     int x=200, y=300, r=80;

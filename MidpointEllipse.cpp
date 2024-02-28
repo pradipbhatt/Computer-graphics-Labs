@@ -66,11 +66,14 @@ int main()
 {
     int gd = DETECT, gm;
     initgraph(&gd, &gm, NULL);
+    int a,b,c,d;
+    // int x=200, y=300, majorAxis=100, minorAxis=80;
+    printf("Enter the cordinates you wanna to input in line :");
+    scanf("%d%d%d%d",&a,&b,&c,&d);
 
-    int x=200, y=300, majorAxis=100, minorAxis=80;
-    MidpointEllipse ellipse(x, y, majorAxis, minorAxis);
+    MidpointEllipse ellipse(a, b, c, d);
     ellipse.drawEllipse();
-    delay(5000);
+    delay(10000);
     closegraph();
     return 0;
 }

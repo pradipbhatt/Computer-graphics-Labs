@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<conio.h>
+
 // Structure to represent a 2D point
 struct Point 
 {
@@ -25,7 +25,7 @@ int main() {
     scalePoint(&myPoint, scaleX, scaleY);
 
     printf("After Scaling: (%.2f, %.2f)\n", myPoint.x, myPoint.y);
-    getch();
+
     return 0;
 }
 

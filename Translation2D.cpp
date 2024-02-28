@@ -17,8 +17,9 @@ void translatePoint(struct Point *point, int tx, int ty)
 int main() 
 {
     struct Point myPoint = {3, 5};
-    int tx = 2;  // Translation in the x-direction
-    int ty = -1; // Translation in the y-direction
+    int tx,ty;
+    printf("Enter translation in x and y directions=\n ");
+    scanf("%d%d",&tx,ty);
 
     printf("Before Translation: (%d, %d)\n", myPoint.x, myPoint.y);
 
