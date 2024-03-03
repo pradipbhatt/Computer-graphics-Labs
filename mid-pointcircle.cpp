@@ -36,7 +36,7 @@ public:
 
 private:
     void putPixel(int x, int y) {
-        putpixel(x, y, WHITE);
+        putpixel(x, y, YELLOW); // Set pixel color to yellow
     }
 };
 
@@ -56,6 +56,7 @@ int main() {
     circle.drawCircle();
 
     delay(5000);
+    getch();
     closegraph();
     return 0;
 }

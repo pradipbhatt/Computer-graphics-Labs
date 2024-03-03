@@ -43,10 +43,10 @@ int main()
     }
 
     // Draw the quadratic Bezier curve
-    setcolor(WHITE);
+    setcolor(YELLOW);
     drawQuadraticBezier(ctrlPoints);
 
-    delay(5000);
+    delay(10000);
     closegraph();
 
     return 0;

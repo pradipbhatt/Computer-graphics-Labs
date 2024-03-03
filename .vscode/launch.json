@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/All_CG_Lab (c,c++,java)",
-      "program": "d:/All_CG_Lab (c,c++,java)/build/Debug/outDebug",
+      "cwd": "d:/cg/Computer-graphics-Labs",
+      "program": "d:/cg/Computer-graphics-Labs/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
